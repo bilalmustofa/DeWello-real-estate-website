@@ -7,7 +7,9 @@ function Home() {
     <>
       <Header />
       <Hero />
-      <SearchBar />
+      <div className="relative z-10 -mt-5 sm:-mt-8 lg:-mt-16">
+        <SearchBar />
+      </div>
     </>
   )
 }
