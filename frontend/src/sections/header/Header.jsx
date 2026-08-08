@@ -5,7 +5,7 @@ import logo from "../../assets/images/logo.png";
 function Header() {
   return (
     <>
-      <section className="w-full bg-[#F8F2ED] fixed top-0 left-0">
+      <section className="w-full bg-[#F8F2ED] fixed top-0 left-0 z-50">
         <nav className="max-w-7xl mx-auto flex items-center justify-around py-6 px-4 sm:px-6 lg:px-10">
           {/* Logo */}
           <div>
