@@ -3,7 +3,7 @@ import aboutImag from '../../assets/images/about-img.png'
 function About() {
   return (
     <>
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-13">
             <div className='flex flex-col lg:flex-row items-center gap-10 lg:gap-16'>
 
                 {/* image */}
