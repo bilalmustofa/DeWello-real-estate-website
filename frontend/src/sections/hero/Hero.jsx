@@ -5,7 +5,7 @@ function Hero() {
     <>
       <section className="flex bg-[#F8F2ED] max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
-          <div className="">
+          <div>
             <h1 className="font-bold text-4xl sm:text-5xl lg:text-7xl leading-tight">
               Find Your <br /> Dream Home
             </h1>
@@ -20,7 +20,7 @@ function Hero() {
           </div>
 
           <div>
-            <img src={heroImg} alt="hero Img" className="w-full max-w-sm sm:max-w-md lg:max-w-2xl"/>
+            <img src={heroImg} alt="hero Img" className="w-full max-w-sm hidden lg:block lg:max-w-2xl"/>
           </div>
         </div>
       </section>
