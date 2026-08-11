@@ -3,6 +3,7 @@ import Header from "../sections/header/Header";
 import Hero from "../sections/hero/Hero";
 import PeopleComment from "../sections/peopleComment/PeopleComment";
 import PopularHouse from "../sections/popularHouse/PopularHouse";
+import Questions from "../sections/questions/Questions";
 import SearchBar from "../sections/searchBar/SearchBar";
 import WhyChoose from "../sections/why Choose/WhyChoose";
 
@@ -18,6 +19,7 @@ function Home() {
       <WhyChoose />
       <PopularHouse />
       <PeopleComment />
+      <Questions />
     </>
   )
 }
