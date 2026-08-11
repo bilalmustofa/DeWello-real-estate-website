@@ -1,4 +1,5 @@
 import About from "../sections/about/About";
+import Footer from "../sections/footer/Footer";
 import Header from "../sections/header/Header";
 import Hero from "../sections/hero/Hero";
 import PeopleComment from "../sections/peopleComment/PeopleComment";
@@ -20,6 +21,7 @@ function Home() {
       <PopularHouse />
       <PeopleComment />
       <Questions />
+      <Footer />
     </>
   )
 }
