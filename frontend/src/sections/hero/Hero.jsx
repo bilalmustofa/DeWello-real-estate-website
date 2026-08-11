@@ -3,13 +3,13 @@ import heroImg from "../../assets/images/hero-image.png";
 function Hero() {
   return (
     <>
-      <section className="flex bg-[#F8F2ED] max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="flex bg-[#F8F2ED] max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
           <div>
             <h1 className="font-bold text-4xl sm:text-5xl lg:text-7xl leading-tight">
               Find Your <br /> Dream Home
             </h1>
-            <p className="mt-6 text-sm sm:text-base lg:text-lg text-gray-600 max-w-md">
+            <p className="mt-6 text-sm sm:text-base lg:text-lg text-[#2F1D16] max-w-md">
               Explore our curated selection of exquisite properties tailored to
               your dream home.
             </p>
