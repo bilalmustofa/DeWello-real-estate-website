@@ -24,7 +24,7 @@ function PeopleComment() {
                         <div className='bg-[#DDC7BB] p-5 rounded-b-3xl'>
                             <div className='flex items-center justify-between'>
                                 <div className='flex items-center justify-between gap-2'>
-                                    <img src={comment.image} alt={comment.name} className="w-12 h-12 rounded-full object-cover "/>
+                                    <img src={comment.profile} alt={comment.name} className="w-12 h-12 rounded-full object-cover "/>
                                     <div>
                                         <p className="text-sm font-semibold">{comment.name}</p>
                                         <p className="text-xs text-gray-600">{comment.city}</p>
